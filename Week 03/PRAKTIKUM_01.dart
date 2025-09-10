@@ -22,12 +22,12 @@ void main() {
   // 1
 
   // ======================================================================
-  // Langkah 3: 
+  // Langkah 3
   // ======================================================================
 
   // list[5] = null; -> Error karena index 5 tidak ada
-  list[1] = "Haikal Muhammad Rafli";
-  list[2] = "2341720008";
+  list[1] = 'Haikal Muhammad Rafli';
+  list[2] = '2341720008';
 
   // print(list[5]);
   print(list[1]);
