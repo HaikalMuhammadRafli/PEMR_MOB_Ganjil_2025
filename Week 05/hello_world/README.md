@@ -1,20 +1,49 @@
-# hello_world
+# LAPORAN PRAKTIKUM WEEK 05 - HELLO WORLD
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 1
+![P01 - 01](screenshots/P01-01.png)
+**PENJELASAN :**
+Membuat project flutter baru dengan nama hello_world
 
-This project is a starting point for a Flutter application.
+### PRAKTIKUM 2
+![P02 - 01](screenshots/P02-01.jpg)
+**PENJELASAN :**
+Menjalankan project di android device
 
-A few resources to get you started if this is your first Flutter project:
+### PRAKTIKUM 3
+![P03 - 01](screenshots/P03-01.png)
+**PENJELASAN :**
+Mengpush project hello_world ke dalam repository mobile
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![P03 - 02](screenshots/P03-02.png)
+**PENJELASAN :**
+Menjalankan project di browser dengan debugging
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### PRAKTIKUM 4
+![P04 - 01](screenshots/P04-01.png)
+**PENJELASAN :**
+Membuat text_widget dan image_widget di folder basic_widgets dan digunakan pada halaman main
 
-### IMAGES
+### PRAKTIKUM 5
+![P05 - 01](screenshots/P05-01.png)
+**PENJELASAN :**
+Implementasi menggunakan scaffold widget untuk mengatur tata letak sesuai dengan material design
 
-![P01 - 01](screenshots/image.png)
+![P05 - 02](screenshots/P05-02.png)
+**PENJELASAN :**
+Implementasi menggunakan dialog widget untuk menampilkan modal dialog ketika button di tekan
+
+![P05 - 03](screenshots/P05-03.png)
+**PENJELASAN :**
+Implementasi menggunakan form input dan selection widget
+
+![P05 - 04](screenshots/P05-04.png)
+**PENJELASAN :**
+Implementasi menggunakan date and time pickers
+
+## TUGAS PRAKTIKUM
+
+### MEMBUAT PRAKTIKUM 5 MENJADI BASIC WIDGETS
+![T - 03](screenshots/T-03.png)
