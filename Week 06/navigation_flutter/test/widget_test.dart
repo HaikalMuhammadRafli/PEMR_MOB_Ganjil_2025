@@ -5,26 +5,24 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:navigation_flutter/main.dart';
+import 'package:navigation_flutter/pages/home_page.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+  testWidgets('HomePage shows app bar, items and prices', (WidgetTester tester) async {
+    // Build the HomePage (it includes its own MaterialApp in this project).
+    await tester.pumpWidget(HomePage());
+    await tester.pumpAndSettle();
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+    // App bar title
+    expect(find.text('Item List'), findsOneWidget);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+    // Items
+    expect(find.text('Sugar'), findsOneWidget);
+    expect(find.text('Salt'), findsOneWidget);
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+    // Prices
+    expect(find.text('5000'), findsOneWidget);
+    expect(find.text('2000'), findsOneWidget);
   });
 }
