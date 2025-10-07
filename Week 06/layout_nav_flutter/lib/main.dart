@@ -48,12 +48,12 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
-        'Carilah teks di internet yang sesuai '
-        'dengan foto atau tempat wisata yang ingin '
-        'Anda tampilkan. '
-        'Tambahkan nama dan NIM Anda sebagai '
-        'identitas hasil pekerjaan Anda. '
-        'Selamat mengerjakan 🙂.',
+        'Haikal Muhammad Rafli - 2341720008 \n'
+        'Permukaan danau yang jernih berwarna biru kehijauan terbentang tenang,'
+        'dihiasi oleh beberapa ekor bebek yang berenang dengan damai.'
+        'Pemandangan ini dibingkai oleh barisan hutan pinus yang lebat di tepiannya,'
+        'dengan latar belakang pegunungan batu yang menjulang megah.'
+        'Kombinasi elemen alam tersebut menciptakan sebuah panorama yang memancarkan suasana damai dan keindahan yang menenangkan.',
         softWrap: true,
       ),
     );
@@ -62,7 +62,14 @@ class MyApp extends StatelessWidget {
       title: 'Flutter layout: Haikal Muhammad Rafli - 2341720008',
       home: Scaffold(
         appBar: AppBar(title: const Text('Flutter layout demo')),
-        body: Column(children: [titleSection, buttonSection, textSection]),
+        body: ListView(
+          children: [
+            Image.asset('images/lake.jpg', width: 600, height: 240, fit: BoxFit.cover),
+            titleSection,
+            buttonSection,
+            textSection,
+          ],
+        ),
       ),
     );
   }
