@@ -7,7 +7,10 @@ void main() {
   runApp(
     MaterialApp(
       initialRoute: '/',
-      routes: {'/': (context) => HomePage(), '/item': (context) => ItemPage()},
+      routes: {
+        HomePage.routeName: (context) => HomePage(),
+        ItemPage.routeName: (context) => ItemPage(),
+      },
     ),
   );
 }
