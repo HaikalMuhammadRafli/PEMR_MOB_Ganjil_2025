@@ -4,6 +4,14 @@ class Item {
   String imageUrl;
   int stock;
   double rating;
+  String description;
 
-  Item({required this.name, required this.price, required this.imageUrl, required this.stock, required this.rating});
+  Item({
+    required this.name,
+    required this.price,
+    required this.imageUrl,
+    required this.stock,
+    required this.rating,
+    required this.description,
+  });
 }
