@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 import '../mock/mock_item.dart';
-import 'item_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
-
-  static const routeName = '/';
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +25,7 @@ class HomePage extends StatelessWidget {
             final item = items[index];
             return InkWell(
               onTap: () {
-                Navigator.pushNamed(context, ItemPage.routeName, arguments: item);
+                context.pushNamed('item', extra: item);
               },
               child: Card(
                 shape: RoundedRectangleBorder(

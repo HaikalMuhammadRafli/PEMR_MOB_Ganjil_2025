@@ -3,14 +3,12 @@ import 'package:flutter/material.dart';
 import '../models/item.dart';
 
 class ItemPage extends StatelessWidget {
-  const ItemPage({super.key});
+  const ItemPage({super.key, required this.itemArgs});
 
-  static const routeName = '/item';
+  final Item itemArgs;
 
   @override
   Widget build(BuildContext context) {
-    final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
-
     return Scaffold(
       appBar: AppBar(title: const Text('Item Detail'), backgroundColor: Colors.white),
       backgroundColor: Colors.white,
@@ -104,15 +102,18 @@ class ItemPage extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     const Text('Price', style: TextStyle(color: Colors.grey, fontSize: 12)),
-                    Text('Rp${itemArgs.price}', style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                    Text(
+                      'Rp${itemArgs.price}',
+                      style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    ),
                   ],
                 ),
               ),
               ElevatedButton(
                 onPressed: () {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text('Added to cart')),
-                  );
+                  ScaffoldMessenger.of(
+                    context,
+                  ).showSnackBar(const SnackBar(content: Text('Added to cart')));
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,
