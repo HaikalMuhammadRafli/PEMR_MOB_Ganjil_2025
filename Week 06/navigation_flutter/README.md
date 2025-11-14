@@ -1,16 +1,13 @@
-# navigation_flutter
+# LAPORAN PRAKTIKUM WEEK 06 - LAYOUT
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 5
+![P05 - 05](screenshots/P05.png)
+**PENJELASAN :**
+Membuat list dengan listview dan halaman detailnya juga
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### TUGAS PRAKTIKUM
+![T02 - 02](screenshots/T02.png)
+**PENJELASAN :**
+Memperbagus UI dan juga migrasi menggunakan go_router
