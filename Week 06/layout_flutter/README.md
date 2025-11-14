@@ -1,16 +1,23 @@
-# layout_nav_flutter
+# LAPORAN PRAKTIKUM WEEK 06 - LAYOUT
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 1
+![P01 - 01](screenshots/p01.png)
+**PENJELASAN :**
+Membuat project flutter baru dan membuat title section
 
-This project is a starting point for a Flutter application.
+### PRAKTIKUM 2
+![P02 - 02](screenshots/p02.png)
+**PENJELASAN :**
+Membuat bottom navbar
 
-A few resources to get you started if this is your first Flutter project:
+### PRAKTIKUM 3
+![P03 - 03](screenshots/p03.png)
+**PENJELASAN :**
+Membuat text section
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### PRAKTIKUM 4
+![P04 - 04](screenshots/p04.png)
+**PENJELASAN :**
+Membuat image section
