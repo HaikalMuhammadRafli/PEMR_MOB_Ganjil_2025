@@ -1,16 +1,22 @@
-# plugin_flutter
+# LAPORAN PRAKTIKUM WEEK 06 - LAYOUT
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 1
+![P01 - 01](screenshots/P01.png)
+**PENJELASAN :**
+Membuat project flutter baru dan membuat red text widget yang menggunakan plugin auto size text.
 
-This project is a starting point for a Flutter application.
+## TUGAS PRAKTIKUM
 
-A few resources to get you started if this is your first Flutter project:
+### 1) Jelaskan maksud dari langkah 2 pada praktikum tersebut!
+Langkah 2 merupakan menjalankan perintah command line yang menambahkan plugin auto_size_text ke dalam project.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2) Jelaskan maksud dari langkah 5 pada praktikum tersebut!
+Langkah 3 merupakan membuat widget baru yang memiliki parameter cotructor atau widget dengan variable yang perlu ditambahkan pada saat pembuatan widget di file lainnya.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3) Pada langkah 6 terdapat dua widget yang ditambahkan, jelaskan fungsi dan perbedaannya!
+Perbedaannya adalah salah satu menggunakan widget Text() biasa dan satunya lagi menggunakan RedTextWidget yang sudah dibuat sebelumnya dengan menggunakan plugin auto size widget.
+
+### 4) Jelaskan maksud dari tiap parameter yang ada di dalam plugin auto_size_text berdasarkan tautan pada dokumentasi ini !
+AutoSizeText berfungsi dan bersifat seperti widget Text() pada umumnya tetapi memiliki fungsi tambahan untuk meresize text agar sesuai dengan dengan batasan widget parentnya.
