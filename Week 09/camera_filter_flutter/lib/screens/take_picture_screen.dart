@@ -1,7 +1,6 @@
 import 'package:camera/camera.dart';
+import 'package:camera_flutter/screens/filter_carousel_screen.dart';
 import 'package:flutter/material.dart';
-
-import 'display_picture_screen.dart';
 
 // A screen that allows users to take a picture using a given camera.
 class TakePictureScreen extends StatefulWidget {
@@ -44,7 +43,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
   Widget build(BuildContext context) {
     // Fill this out in the next steps.
     return Scaffold(
-      appBar: AppBar(title: const Text('Take a picture - NIM Anda')),
+      appBar: AppBar(title: const Text('Take a picture - 2341720008')),
       // You must wait until the controller is initialized before displaying the
       // camera preview. Use a FutureBuilder to display a loading spinner until the
       // controller has finished initializing.
@@ -78,7 +77,7 @@ class TakePictureScreenState extends State<TakePictureScreen> {
             // If the picture was taken, display it on a new screen.
             await Navigator.of(context).push(
               MaterialPageRoute(
-                builder: (context) => DisplayPictureScreen(
+                builder: (context) => PhotoFilterCarousel(
                   // Pass the automatically generated path to
                   // the DisplayPictureScreen widget.
                   imagePath: image.path,
