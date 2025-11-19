@@ -1,16 +1,27 @@
-# camera_flutter
+# LAPORAN PRAKTIKUM WEEK 09 - KAMERA
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 1
+![P01 - 01](screenshots/P01_1.jpg)
+![P01 - 02](screenshots/P01_2.jpg)
+**PENJELASAN :**
+Membuat project flutter baru dan membuat screen pengambilan foto dengan kamera dan menampilkan hasilnya di halaman preview.
 
-This project is a starting point for a Flutter application.
+### PRAKTIKUM 2
+![P02 - 00](screenshots/P02.jpg)
+**PENJELASAN :**
+Membuat halaman untuk menggunakan filter pada hasil pengambilan foto.
 
-A few resources to get you started if this is your first Flutter project:
+## TUGAS PRAKTIKUM
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2) Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
+![P01 - 01](screenshots/P01_1.jpg)
+![P02 - 00](screenshots/P02.jpg)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3) Jelaskan maksud void async pada praktikum 1?
+Maksud dari sintaks async adalah untuk membuat sebuah fungsi menjadi asynchronus, sehingga bisa menjalankan operasi yang butuh waktu tanpa menghentikan ui.
+
+### 4) Jelaskan fungsi dari anotasi @immutable dan @override ?
+- @immutable: Berfungsi untuk menandai fungsi dibawahnya bersifat final dan tidak bisa diubah.
+- @override: Berfungsi untuk menimpa fungsi yang dimiliki oleh parent class.
