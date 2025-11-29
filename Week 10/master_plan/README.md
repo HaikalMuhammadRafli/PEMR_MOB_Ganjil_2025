@@ -1,16 +1,18 @@
-# master_plan
+# LAPORAN PRAKTIKUM WEEK 09 - KAMERA
 
-A new Flutter project.
+## PRAKTIKUM
 
-## Getting Started
+### PRAKTIKUM 1
+![P01](screenshots/P01.gif)<br/>
+**PENJELASAN :**
+Membuat project task planner flutter baru.
 
-This project is a starting point for a Flutter application.
+### PRAKTIKUM 2
+![P02](screenshots/P02.gif)<br/>
+**PENJELASAN :**
+Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### PRAKTIKUM 3
+![P03](screenshots/P03.gif)<br/>
+**PENJELASAN :**
+Membuat State di Multiple Screens.
